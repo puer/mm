@@ -379,7 +379,7 @@ Connection ~ 4400 3750
 Wire Wire Line
 	4400 3750 4500 3750
 Text Label 4450 3250 0    50   ~ 0
-0.5mA
+0.5mA_DCV_COM
 Text Label 3900 3150 0    50   ~ 0
 50mA
 Text Label 3500 3050 0    50   ~ 0
@@ -433,4 +433,16 @@ Text Notes 4500 3500 0    50   ~ 0
 391 Ohm
 Text Notes 2600 4950 1    50   ~ 0
 6.7 Ohm
+Text Notes 3350 5100 0    50   ~ 0
+0.15mA
+Text Label 5950 3650 1    50   ~ 0
+ACV_COM
+Text Label 8050 4850 1    50   ~ 0
+10V
+Text Label 7450 4850 1    50   ~ 0
+50V
+Text Label 6900 4850 1    50   ~ 0
+250V
+Text Notes 5050 3500 0    50   ~ 0
+1423 Ohm
 $EndSCHEMATC
