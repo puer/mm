@@ -445,4 +445,6 @@ Text Label 6900 4850 1    50   ~ 0
 250V
 Text Notes 5050 3500 0    50   ~ 0
 1423 Ohm
+Text Notes 2100 5900 0    50   ~ 0
+let zero adj 1-2 = x Ohm\n\n((2630.7-x)*0.15/(1805.1+x) + 0.15) * 3920 + (2630.7 - x)*0.15 = 1500\n\nx = 425.6 Ohm
 $EndSCHEMATC
